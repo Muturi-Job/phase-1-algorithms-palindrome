@@ -1,10 +1,16 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
+  let reverseWord = word.split('').reverse().join('');
+  return word ===reverseWord;
+  }
+
 
 /* 
   Add your pseudocode here
+  the reverseWord variable reverses the word that has been passed in
+  and then the function returns true if the reversed word matches the word that was passsed in.
 */
+
 
 /*
   Add written explanation of your solution here
